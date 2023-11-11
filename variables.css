@@ -1,0 +1,9 @@
+:root {
+    --title-color-mobile: red;
+    --title-color-table: green;
+    --title-color-desktop: blue;
+  
+    --button-color-mobile: blue;
+    --button-color-table: brown;
+    --button-color-desktop: red;
+  }

@@ -1,0 +1,74 @@
+@media (min-width: 768px) {
+    .box-1{
+        width: 128vh;
+        height: 25vh;
+    }
+    
+    .box-2{
+        width: 32vh;
+        height: 75vh;
+    }
+    
+    .box-3{
+        width: 48vh;
+        height: 50vh;
+    }
+    
+    .box-4{
+        width: 40vh;
+        height: 25vh;
+    }
+    
+    .box-5{
+        width: 40vh;
+        height: 25vh;
+    }
+    
+    .box-6{
+        width: 80vh;
+        height: 25vh;
+    }
+    
+    .box-7{
+        width: 160vh;
+        height: 20vh;
+    }
+}
+
+
+@media (min-width: 992px) {
+    .box-1{
+        width: 160vh;
+        height: 25vh;
+    }
+    
+    .box-2{
+        width: 40vh;
+        height: 75vh;
+    }
+    
+    .box-3{
+        width: 60vh;
+        height: 50vh;
+    }
+    
+    .box-4{
+        width: 50vh;
+        height: 25vh;
+    }
+    
+    .box-5{
+        width: 50vh;
+        height: 25vh;
+    }
+    
+    .box-6{
+        width: 100vh;
+        height: 25vh;
+    }
+    
+    .box-7{
+        width: 198vh;
+        height: 20vh;
+    }
+}

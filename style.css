@@ -1,0 +1,66 @@
+.flex{
+    display: flex;
+}
+
+.box-1{
+    width: 160vh;
+    height: 25vh;
+}
+
+.box-2{
+    width: 40vh;
+    height: 75vh;
+}
+
+.box-3{
+    width: 60vh;
+    height: 50vh;
+}
+
+.box-4{
+    width: 50vh;
+    height: 25vh;
+}
+
+.box-5{
+    width: 50vh;
+    height: 25vh;
+}
+
+.box-6{
+    width: 100vh;
+    height: 25vh;
+}
+
+.box-7{
+    width: 198vh;
+    height: 20vh;
+}
+
+.blue{
+    background: blue;
+}
+
+.gray{
+    background: gray;
+}
+
+.yellow{
+    background: yellow;
+}
+
+.red{
+    background: red;
+}
+
+.aque{
+    background: aqua;
+}
+
+.green{
+    background: green;
+}
+
+.orange{
+    background: orange;
+}
