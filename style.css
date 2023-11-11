@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: white;
+}
+
+.accordion {
+    width: 500px;
+}
+
+.accordion-item {
+    border-bottom: 3px solid orange;
+}
+
+.accordion-header {
+    background-color: orange;
+    padding: 10px;
+    cursor: pointer;
+    user-select: none;
+    font-weight: bold;
+}
+
+.accordion-content {
+    padding: 10px;
+    display: none;
+}
+
