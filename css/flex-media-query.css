@@ -1,0 +1,120 @@
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 767px) {
+    body header {
+      color: red;
+    }
+  
+    body header ul li a {
+      color: red;
+    }
+  
+    body header .prs-button {
+      background-color: blue;
+    }
+  
+    body .prs-layout {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    body .prs-layout .prs-text {
+      width: 100%;
+    }
+  
+    body .prs-layout .prs-text h1 {
+      color: red;
+    }
+  
+    body .prs-layout .prs-text p {
+      width: auto;
+      text-align: center;
+    }
+  
+    body .prs-layout .prs-text .prs-desktopImg {
+      display: none;
+    }
+  
+    body .prs-layout .prs-text .prs-tabletImg {
+      display: none;
+    }
+  
+    body .prs-layout .prs-text .prs-mobileImg {
+      display: flex;
+      width: auto;
+      height: auto;
+    }
+  
+    body .prs-layout .prs-slidebar {
+      display: flex;
+      border: 1px solid black;
+      height: auto;
+      width: auto;
+    }
+  
+    body .prs-layout .prs-slidebar h2 {
+      color: red;
+    }
+  
+    body footer h2 {
+      color: red;
+    }
+    body footer p {
+     text-align: justify;
+  }
+  }
+  
+  /* Medium devices (tablets, 768px and up) */
+  @media (min-width:768px) and (max-width: 1023px) {
+    body header {
+      color: green;
+    }
+  
+    body header ul li a {
+      color: green;
+    }
+  
+    body header .prs-button {
+      background-color: rgb(165, 0, 0);
+    }
+  
+    body .prs-layout .prs-text {
+      width: 400%;
+    }
+  
+    body .prs-layout .prs-text h1 {
+      color: green;
+    }
+  
+    body .prs-layout .prs-text p {
+      width: 95%;
+    }
+  
+    body .prs-layout .prs-text .prs-desktopImg {
+      display: none;
+    }
+  
+    body .prs-layout .prs-text .prs-tabletImg {
+      display: flex;
+      width: 95%;
+      height: 60%;
+    }
+  
+    body .prs-layout .prs-slidebar h2 {
+      color: green;
+    }
+  
+    body footer h2 {
+      color: green;
+    }
+  }
+  
+  
+  /* Large devices (desktops, 992px and up) */
+  @media (min-width: 1024px) {}
+  
+  /* Extra large devices*/
+  @media (min-width: 2560) {
+    body .prs-layout .prs-slidebar {
+      height: auto;
+    }
+  }
