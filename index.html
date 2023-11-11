@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MKR_Karpenko_M_A</title>
+    <style>
+        :root {
+            --grid-gap: 16px;
+            --column-count-mobile: 1;
+            --column-count-tablet: 2;
+            --column-count-desktop: 3;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .container {
+            display: grid;
+            grid-gap: var(--grid-gap);
+            grid-template-columns: repeat(var(--column-count-mobile), 1fr);
+            padding: var(--grid-gap);
+        }
+
+        @media (min-width: 600px) {
+            .container {
+                grid-template-columns: repeat(var(--column-count-tablet), 1fr);
+            }
+        }
+
+        @media (min-width: 900px) {
+            .container {
+                grid-template-columns: repeat(var(--column-count-desktop), 1fr);
+            }
+        }
+
+        .item {
+            background-color: #070d11;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+        <div class="item">4</div>
+        <div class="item">5</div>
+        <div class="item">6</div>
+    </div>
+
+</body>
+
+</html>
