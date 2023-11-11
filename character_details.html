@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Деталі персонажа</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        padding: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Деталі персонажа</h1>
+
+    <div id="characterDetails"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+      function fetchData(url, callback) {
+        fetch(url)
+          .then((response) => response.json())
+          .then((data) => callback(data))
+          .catch((error) =>
+            console.error("Помилка при отриманні даних:", error)
+          );
+      }
+
+      function displayCharacterDetails(character) {
+        var characterDetails = document.getElementById("characterDetails");
+
+        var detailsHTML = "<ul>";
+        for (var key in character) {
+          if (character.hasOwnProperty(key)) {
+            detailsHTML += `<li><strong>${key}:</strong> ${character[key]}</li>`;
+          }
+        }
+        detailsHTML += "</ul>";
+
+        characterDetails.innerHTML = detailsHTML;
+      }
+
+      var urlParams = new URLSearchParams(window.location.search);
+      var characterId = urlParams.get("characterId");
+
+      if (characterId) {
+        var apiUrl = `https://anapioficeandfire.com/api/characters/${characterId}`;
+
+        fetchData(apiUrl, displayCharacterDetails);
+      } else {
+        console.error("Не вказаний characterId у параметрах URL.");
+      }
+    </script>
+  </body>
+</html>
