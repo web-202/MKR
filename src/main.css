@@ -1,0 +1,33 @@
+.registration-form{
+    width: 250px;
+    border-radius:5px;
+    height: 400px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #fff;
+}
+
+.sign-up_button{
+    background-color: rgb(125, 125, 212);
+    padding: 5px 25px;
+    border:none;
+    border-radius: 5px;
+}
+
+.sign-up_input{
+    width: 90%;
+    margin-top: 10px;
+}
+
+
+
+.sign-up_labelname{
+    width: 100px
+}
+
+.first{
+    display: flex;
+    gap: 25px;
+}
