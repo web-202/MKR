@@ -1,0 +1,142 @@
+
+:root {
+    --main-bg-color: #f0f0f0;
+    --header-text-color: #333;
+    --article-bg-color: #fff;
+    --sidebar-bg-color: #eee;
+    --footer-bg-color: #333;
+    --footer-text-color: #fff;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--main-bg-color);
+    color: #333;
+}
+
+.centered-section {
+    text-align: center;
+    margin: 20px;
+}
+
+
+.header {
+    background-color: var(--header-bg-color);
+    color: var(--header-text-color);
+    text-align: center;
+    padding: 20px;
+}
+
+.header__title {
+    margin: 0;
+}
+
+
+.main-content {
+    padding: 20px;
+}
+
+.main-content__title {
+    text-align: center;
+}
+
+.main-content__column {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.main-content__article {
+    background-color: var(--article-bg-color);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.article__title {
+    color: #333;
+}
+
+
+.image-panel {
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+}
+
+.image-panel__title {
+    margin: 0;
+}
+
+.image-panel__images {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.image-panel__images img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.image-panel__item {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.image-panel__article-title {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.image-panel__article-content {
+    color: #555;
+}
+
+.bottom-section {
+    padding: 20px;
+    padding-bottom: 50px;
+}
+
+.bottom-section__title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.bottom-section__article {
+    background-color: var(--article-bg-color);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.bottom-section__columns {
+    display: flex;
+    justify-content: space-around;
+}
+
+.bottom-section__column {
+    flex: 1;
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    margin-right: 10px;
+}
+
+.column__title {
+    color: #333;
+}
+
+
+.footer {
+    background-color: var(--footer-bg-color);
+    color: var(--footer-text-color);
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin-top: 20px;
+}
