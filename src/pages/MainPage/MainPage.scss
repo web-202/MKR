@@ -1,0 +1,20 @@
+.main-page {
+  display: grid;
+  grid-template-rows: 80px 1fr;
+}
+
+.main-page-header {
+  background-color: rgba(239, 235, 235, 0.7);
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+    border-bottom: 2px solid rgb(154, 88, 20);
+}
+.main-page-content{
+  height: 80vh;
+  color: black;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  justify-items: center;
+  align-items: center;
+}
