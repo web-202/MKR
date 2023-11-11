@@ -1,0 +1,264 @@
+
+@media (max-width: 320px) {
+    
+body{
+    width: 310px;
+    margin-right: 10px;
+    padding-right: 10px;
+}
+.main{
+    display: grid;
+    grid-template-rows: 200px 75px;
+}
+
+.grid1{
+    background-color: aqua ;
+    display: grid;
+    grid-template-columns: auto 75px;
+}
+
+.grid11{
+    display: grid;
+    grid-template-rows: 75px auto;
+}
+
+
+.grid111{
+    background-color: rgb(0, 170, 216);
+}
+
+.grid112{
+   display: grid;
+   grid-template-columns: auto 75px;
+}
+
+.grid1121{
+    display: grid;
+    grid-template-rows: auto 63px;
+}
+
+.grid11211{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.grid112111{
+    background-color: aqua;
+}
+
+.grid112112{
+    background-color: red;
+}
+
+.grid11212{
+    background-color: green;
+}
+
+.grid1122{
+    background-color: yellow;
+}
+
+.grid12{
+    background-color: gray;
+}
+
+.grid2{
+    background-color: chocolate;
+}
+}
+
+
+@media (min-width: 320px) and (max-width: 426px) {
+    
+    body{
+        width: 425px;
+        margin-right: 10px;
+        padding-right: 10px;
+    }
+    .main{
+        display: grid;
+        grid-template-rows: 200px 75px;
+    }
+    
+    .grid1{
+        background-color: aqua ;
+        display: grid;
+        grid-template-columns: auto 75px;
+    }
+    
+    .grid11{
+        display: grid;
+        grid-template-rows: 75px auto;
+    }
+    
+    
+    .grid111{
+        background-color: rgb(0, 170, 216);
+    }
+    
+    .grid112{
+       display: grid;
+       grid-template-columns: auto 75px;
+    }
+    
+    .grid1121{
+        display: grid;
+        grid-template-rows: auto 63px;
+    }
+    
+    .grid11211{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    .grid112111{
+        background-color: aqua;
+    }
+    
+    .grid112112{
+        background-color: red;
+    }
+    
+    .grid11212{
+        background-color: green;
+    }
+    
+    .grid1122{
+        background-color: yellow;
+    }
+    
+    .grid12{
+        background-color: gray;
+    }
+    
+    .grid2{
+        background-color: chocolate;
+    }
+    }
+
+    
+@media (min-width: 426px) and (max-width: 768px) {
+    
+    body{
+        width: 768px;
+        margin-right: 10px;
+        padding-right: 10px;
+    }
+    .main{
+        display: grid;
+        grid-template-rows: 200px 100px;
+    }
+    
+    .grid1{
+        background-color: aqua ;
+        display: grid;
+        grid-template-columns: auto 100px;
+    }
+    
+    .grid11{
+        display: grid;
+        grid-template-rows: 75px auto;
+    }
+    
+    
+    .grid111{
+        background-color: rgb(0, 170, 216);
+    }
+    
+    .grid112{
+       display: grid;
+       grid-template-columns: auto 75px;
+    }
+    
+    .grid1121{
+        display: grid;
+        grid-template-rows: auto 63px;
+    }
+    
+    .grid11211{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    .grid112111{
+        background-color: aqua;
+    }
+    
+    .grid112112{
+        background-color: red;
+    }
+    
+    .grid11212{
+        background-color: green;
+    }
+    
+    .grid1122{
+        background-color: yellow;
+    }
+    
+    .grid12{
+        background-color: gray;
+    }
+    
+    .grid2{
+        background-color: chocolate;
+    }
+    }
+/* 
+body{
+    width: 500px;
+}
+.main{
+    display: grid;
+    grid-template-rows: 200px 50px;
+}
+
+.grid1{
+    background-color: aqua ;
+    display: grid;
+    grid-template-columns: auto 200px;
+}
+
+.grid11{
+    display: grid;
+    grid-template-rows: 50px 150px;
+}
+
+.grid111{
+    background-color: rgb(0, 170, 216);
+}
+
+.grid112{
+   display: grid;
+   grid-template-columns: auto 200px;
+}
+
+.grid1121{
+    display: grid;
+    grid-template-rows: 75px 75px;
+}
+
+.grid11211{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.grid112111{
+    background-color: aqua;
+}
+
+.grid112112{
+    background-color: red;
+}
+
+.grid11212{
+    background-color: green;
+}
+
+.grid1122{
+    background-color: yellow;
+}
+
+.grid12{
+    background-color: gray;
+}
+
+.grid2{
+    background-color: chocolate;
+} */
