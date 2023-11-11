@@ -1,0 +1,73 @@
+:root {
+    --header-height: 50px;
+    --header-bg-color: #333;
+    --header-text-color: #fff;
+    --main-bg-color: #f8f8f8;
+    --footer-bg-color: #333;
+    --footer-text-color: #fff;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    height: var(--header-height);
+    background-color: var(--header-bg-color);
+    color: var(--header-text-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header nav ul li a {
+    color: inherit;
+    text-decoration: none;
+    padding: 0 10px;
+}
+
+main {
+    margin-left: 500px;
+    background-color: var(--main-bg-color);
+    padding: 20px;
+    display: flex;
+    width: 100px;
+    height: 100px;
+    
+}
+section{
+    margin-left: 20px;
+}
+.imges{
+    width: 100px;
+    height: 100px;
+}
+
+footer {
+    background-color: var(--footer-bg-color);
+    color: var(--footer-text-color);
+    padding: 20px;
+    text-align: center;
+    margin-top: 500px;
+}
+
+
+/* це адаптивний дизайн...фішку нову взнав  */
+@media (min-width: 768px) {
+    main {
+        padding: 40px;
+    }
+}
