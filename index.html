@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Navs Example</title>
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+ <style>
+    /* Додайте CSS для зміни кольору кнопок на рожевий */
+    .custom-nav-link {
+        color: pink; /* Рожевий колір тексту кнопок */
+    }
+    .custom-nav-link.active {
+        background-color: pink; /* Рожевий колір фону активної кнопки */
+        color: white; /* Білий колір тексту активної кнопки */
+    }
+ </style>
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<ul class="nav nav-tabs">
+ <li class="nav-item">
+    <a class="nav-link custom-nav-link active" data-toggle="tab" href="#one">One</a>
+ </li>
+ <li class="nav-item">
+    <a class="nav-link custom-nav-link" data-toggle="tab" href="#two">Two</a>
+ </li>
+ <li class="nav-item">
+    <a class="nav-link custom-nav-link" data-toggle="tab" href="#three">Three</a>
+ </li>
+</ul>
+
+<div class="tab-content">
+ <div id="one" class="tab-pane active">
+    <h1>One</h1>
+    <p>Природа – це найвеличніше диво нашого світу. Її неповторна краса заворожує нас і наповнює наше серце відчуттям спокою і гармонії. Вся наша планета – це справжнє шедевр мистецтва, створений природою самою.
+
+        Зачаровані ліси, вкриті дзвінким співом пташок, лякають своєю зеленню та загадковістю. Гори, що тягнуться в небо, нагадують нам про могутню силу природи і нескінченну різноманітність краєвидів. Океани і ріки, які розсипані по всьому світу, спонукають нас мріяти про подорожі та дізнаватися нові секрети водного світу.</p>
+ </div>
+ <div id="two" class="tab-pane">
+    <h1>Two</h1>
+    <p>Природа завжди вражає нас своєю різноманітністю – від пустель і крижаних полярних льодовиків до живописних тропічних лісів і луках, вкритих квітами різних кольорів. Кожен сезон приносить свої чари і красу: весна оживляє природу квітами і піснями пташок, літо радує сонцем і теплом, осінь дарує рясний урожай і багатство кольорів, а зима окутає все навколо снігом і льодом, створюючи казковий світ.</p>
+ </div>
+ <div id="three" class="tab-pane">
+    <h1>Three</h1>
+    <p>Ми маємо щасливу можливість жити в гармонії з природою, берегти її ресурси та зберігати її красу. Природа – це скарб, який ми повинні берегти і оберігати, щоб і майбутні покоління могли насолоджуватися її величчю і вродою.</p>
+ </div>
+</div>
+
+</body>
+</html>
