@@ -9,6 +9,11 @@ document.addEventListener("DOMContentLoaded", function () {
         const cell = document.createElement("div");
         cell.className = "cell random-color";
         cell.textContent = shuffledNumbers[i];
+        
+        const randomSize = getRandomInt(50, 120);
+        cell.style.width = `${randomSize}px`;
+        cell.style.height = `${randomSize}px`;
+
         setRandomBackgroundColor(cell);
 
         cell.addEventListener("click", function () {
@@ -41,4 +46,8 @@ function randomColor() {
         color += letters[Math.floor(Math.random() * 16)];
     }
     return color;
+}
+
+function getRandomInt(min, max) {
+    return Math.floor(Math.random() * (max - min + 1)) + min;
 }
