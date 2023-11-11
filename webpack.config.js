@@ -41,6 +41,11 @@ module.exports = (env, argv) => {
         },
         module: {
             rules: [
+                {
+                    test: /\.ts$/,
+                    use: 'ts-loader',
+                    exclude: /node_modules/,
+                },
             ],
         },
         resolve: {
@@ -55,7 +60,7 @@ module.exports = (env, argv) => {
             ],
         },
         devServer: {
-            port: 0,
+            port: 8080,
         },
     };
 };
