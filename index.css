@@ -1,0 +1,23 @@
+body{
+    display:flex;
+}
+.one{
+    width: 30%; 
+    height: 100px; 
+    margin: 10px;
+}
+.tho{
+    width: 30%; 
+    height: 100px; 
+    margin: 10px;
+}
+.tree{
+    width: 30%; 
+    height: 100px; 
+    margin: 10px;
+}
+.q{
+    width: 350px; 
+    height: 200px; 
+    margin: 10px;
+}
